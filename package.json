@@ -1,0 +1,18 @@
+{
+  "name": "@cairul/node-test-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "run.mjs",
+    "reporter.mjs"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@cairul/plugin-kit": "workspace:^"
+  },
+  "license": "Apache-2.0"
+}
