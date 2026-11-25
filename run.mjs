@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from 'node:url';
-import { counts, list, option, selectors, stdout, value } from '@cairul/plugin-kit/runner';
+import { counts, list, option, selectors, stdout, value } from '@cairul/pdk/runner';
 
 const reporter = fileURLToPath(new URL('./reporter.mjs', import.meta.url));
 
